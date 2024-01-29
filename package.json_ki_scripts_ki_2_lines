@@ -1,0 +1,15 @@
+package.json file ke ander scripts ke tag me hmne 2 commands add kri hai,
+1. "server": "cd server && npm run dev",
+2. "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+
+ye 2 commands hmne additional files ke folder ke ander package.json file ke scripts tag me se uthayi hai
+ye dono commands ke through apne backend and frontend ko simultaneously run krne ki configurations add krdi hai
+
+"npm run dev" likhte hi dono backend and frontend simultaneously start ho jayege
+jo backend, i.e., server hoga wo yellow color se start hoga
+jo frontend, i.e., client hoga wo blue color se start hoga
+
+------------------additional files folder------------------
+
+additional files folder ke ander ek assets and data naam ke 2 folders hai,
+inn dono folder ko uthake move krdenge StudyNotion ke "src" folder ke ander
